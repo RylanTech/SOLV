@@ -1,0 +1,38 @@
+.title {
+    padding: 0px 20px
+}
+.nav-color {
+    background-color: #008BF8;
+    color: white;
+}
+.nav-link {
+    color: white!important;
+}
+.m-15 {
+    margin: 15px!important
+}
+.m-15-top {
+    margin-top: 15px!important;
+}
+.pagecard {
+    margin: 15px 0px;
+}
+
+
+
+
+
+.footer {
+    background-color: #008BF8;
+}
+.flinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+.flinks a {
+    color: rgb(190, 190, 190);
+    padding: 30px 0px;
+}
+.flinks a:hover {
+    color: rgb(255, 255, 255);
+}
