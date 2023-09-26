@@ -8,18 +8,32 @@ function Homepage() {
             <Home />
             <Container>
                 <Carousel>
-                    <Carousel.Item interval={7000}>
+                    <Carousel.Item interval={10000}>
                         <img
                             className="d-block w-100"
-                            src="Images/slide1.png"
+                            src="Images/2.png"
                             alt="First slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={7000}>
+                    <Carousel.Item interval={10000}>
                         <img
                             className="d-block w-100"
-                            src="Images/slide2.png"
+                            src="Images/3.png"
                             alt="Second slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100"
+                            src="Images/4.png"
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100"
+                            src="Images/5.png"
+                            alt="fourth slide"
                         />
                     </Carousel.Item>
                 </Carousel>
@@ -29,9 +43,9 @@ function Homepage() {
                     </center>
                     <div className="col-12 col-md-6">
                         <Card className="col-12 pagecard">
-                            <Card.Img variant="top" src="https://images.unsplash.com/photo-1670746428028-139a4241918f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" />
+                            <Card.Img variant="top" src="Images/6.png"/>
                             <Card.Body>
-                                <Card.Title>Join In...</Card.Title>
+                                <Card.Title>Jump In...</Card.Title>
                                 <Card.Text>
                                     Story telling, art, music, dance and more.
 
